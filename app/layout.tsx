@@ -29,7 +29,7 @@ export default async function RootLayout({
   return (
     <html lang="en" data-theme="light">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} container mx-auto`}
+        className={`${geistSans.variable} ${geistMono.variable}`}
       >
         <Navbar />
         {children}
