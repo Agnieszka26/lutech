@@ -7,9 +7,9 @@ const Page = () => {
   return (
     <div className="container mx-auto w-screen">
       <h3 className="text-3xl font-bold mb-4 text-center text-dark-blue">
-      {t("testimonials.title")}
+      {t("testimonial.title")}
       </h3>
-      <p className="text-dark-blue text-center">{t("testimonials.subtitle")}</p>
+      <p className="text-dark-blue text-center">{t("testimonial.subtitle")}</p>
       <TestimonialSection />
     </div>
   );
