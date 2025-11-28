@@ -1,11 +1,49 @@
 {
-  "welcome": "Welcome!",
-  "description": "Some text...",
-  "nav.home": "Dom",
-  "nav.about": "About",
-  "nav.services": "Services",
-  "nav.contact": "Contact",
-  "footer.rights": "All rights reserved.",
-  "footer.privacy": "Privacy Policy",
-  "footer.terms": "Terms of Service"
+  "hero.slogan": "Najlepsze technologie powstają w Lublinie",
+  "hero.title": "Łączymy naukę z przemysłem. Projektujemy i rozwijamy technologie chemiczne.",
+  "hero.description": "Od koncepcji laboratoryjnej po wdrożenie przemysłowe — wspieramy firmy w opracowywaniu procesów, formulacji i rozwiązań technologicznych dopasowanych do potrzeb produkcji. ",
+  "hero.cta": "Skontaktuj się z nami",
+
+  "nav.about": "O nas",
+  "nav.services": "Usługi",
+  "nav.projects": "Realizacje",
+  "nav.language": "Język",
+
+  "footer.rights": "Wszelkie prawa zastrzeżone.",
+  "footer.privacy": "Polityka prywatności",
+  "footer.terms": "Warunki korzystania z usługi",
+
+  "testimonial.title": "REALIZACJE (CASE STUDIES)",
+  "testimonial.subtitle": "Wybrane projekty",
+  "testimonial.text1": "Opracowanie metody ekstrakcji materiału roślinnego pod kątem ekstakcji związku termolabilnego dla przemysłu kosmetycznego. Przygotowanie i zoptymalizowanie procesu i uzyskanie produktu o czystości min. 95%.",
+  "testimonial.text2": "Opracowaliśmy jeden z etapów syntezy i oczyszczania związku aktywnego biologicznie, zoptymalizowaliśmy i poprawiliśmy ogólną wydajność całego, 5 etapowego procesu o 12 p.p.",
+
+  "about.title": "Nasza motywacja",
+  "about.text1": "LubTech to zespół osób z doświadczeniem w opracowywaniu i wdrażaniu technologii dla przemysłu chemicznego i pokrewnych. Naszym celem jest łączenie wiedzy naukowej z praktyką przemysłową, by tworzyć rozwiązania, które realnie zwiększają efektywność i bezpieczeństwo procesów.",
+  "about.text2": "Nasz zespół można opisać słowem balans. Jesteśmy połączeniem młodości i dojrzałości, spokoju i doświadczenia oraz ambicji i nieustannych wysiłków. Wśród członków mamy pracowników z ponad 10 letnim stażem na uczelni, ponad 20 letnim w przemyśle, a także aspirujące, młode, aczkolwiek już istotnie doświadczone jednostki. Wynikiem połączenia takich substratów jest zespół, którego ambicją jest dawać rozwiązania dla polskiego przemysłu a przy tym rozwijać się, uczyć, poszerzać horyzonty.",
+  "about.text3": "Jesteśmy typem „closerów”,  choć uwielbiamy samą drogę do celu, to zawsze finalizujemy swoje zadania. Wiele rozwiązanych problemów pozwoliło nam wyklarować schemat działania, który powtarzalnie przynosi bardzo dobre rezultaty. Jeśli nie korzystasz jeszcze z naszych usług, skorzystaj z naszego schematu ze swoim problemem: zagłębiamy temat, sprawdzamy hipotezy, nakierowujemy rozwiązanie i tworzymy projekt, potwierdzamy zgodność założeń przy skalowaniu i wdrażamy.",
+
+  "services.title": "Mapa kompetencji LubTech",
+  "services.subtitle": "Zobacz, jak łączymy wiedzę naukową, technologię procesową i inżynierję w praktyce.",
+  "services.processes": "Procesy technologiczne",
+  "services.processes_desc": "Przygotowujemy ścieżeki syntezy organicznej  i nieorganicznej, \n  Optymalizujemy parametry, zwiększamy wydajność, czystość produktu,\n  Projektujemy procesy wieloetapowych i sprzężonych,\n  Wykonujemy separacje wieloskładnikowe: oczyszczanie na kolumnach chromatograficznych preparatywnych, krystalizacje przez chłodzenie, sublimacje, ekstrakcje LLE, SLE, SFE, Soxhlet, destylacje frakcyjną, azeotropową, pod obniżonym ciśnieniem, destylację z parą wodną, hydrodestylacje oraz suszenie i odzysk rozpuszczalników,",
+  "services.solutions": "Rozwiązania inżynieryjne",
+  "services.solutions_desc": "Wykonujemy projekt koncepcyjny i technologiczny urządzeń, \n Projektujemy kompletne linie przemysłowe, \n Projektujemy hale do produkcji chemicznej,\n  dobieramy materiały i parametry pracy,\n  Przygotowujemy schematy technologiczne PFD, P&ID,\n Doradzamy przy modernizacji i wdrożeniach, uruchomieniach zaprojektowanych przez nas linii produkcyjnych, \n Wspieramy w uzyskaniu pozwoleń środowiskowych ",
+  "services.formulations": "Formulacje produktowe",
+  "services.formulations_desc": "Dla przemysłów: kosmetycznych, farmaceutycznych, nawozowych, paszowych, \n Opracowujemy i optymalizujemy receptury w oparciu o wytyczne klienta, \n Wykonujemy testy stabilności, zgodności, \n Opracowujemy technologie wytwarzania oraz przygotowujemy dokumentacje technologiczne \n",
+  "services.rd": "Zlecone prace R&D",
+  "services.rd_desc": "Przygotowujemy i wdrażamy zespoły w przeglądy literaturowe,\n Oferujemy badania i wsparcie przy projektach naukowych, wnioskach o dotacje, panelach ekspertów.\n Wykonujemy analizy oraz raporty GCMS, 1H, 13C NMR, PSD.\n",
+
+  "feature.experience.title": "Doświadczenie i wiedza",
+  "feature.experience.description": "Wieloletnie doświadczenie w R&D i technologii procesowej",
+  "feature.comprehensive.title": "Kompleksowe podejście",
+  "feature.comprehensive.description": "Od reakcji chemicznej do działającej instalacji.",
+  "feature.customer_oriented.title": "Zorientowanie na klienta",
+  "feature.customer_oriented.description": "Zrozumienie potrzeb B2B - od analiz po wdrożenia.",
+  "feature.support.title": "Wsparcie na każdym etapie projektu",
+  "feature.support.description": "Elastyczna współpraca: doradztwo, dokumentacja, opracowania technologiczne.",
+
+  "cta.title": "Zapraszamy do współpracy!",
+  "cta.description": "Projektujemy i optymalizujemy procesy chemiczne — od badań laboratoryjnych po wdrożenia przemysłowe. Kompleksowe wsparcie B2B w obszarze R&D i inżynierii procesowej.",
+  "cta.button": "Napisz e-mail"
 }

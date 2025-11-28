@@ -1,11 +1,47 @@
 {
-  "welcome": "Welcome!",
-  "description": "Some text...",
-  "nav.home": "Home",
-  "nav.about": "About",
+  "hero.slogan": "The best technologies are created in Lublin",
+  "hero.title": "We connect science with industry. We design and develop chemical technologies.",
+  "hero.description": "From laboratory concepts to industrial implementation — we support companies in developing processes, formulations, and technological solutions tailored to production needs.",
+  "hero.cta": "Contact us",
+
+  "nav.about": "About us",
   "nav.services": "Services",
-  "nav.contact": "Contact",
+  "nav.projects": "Projects",
+  "nav.language": "Language",
+
   "footer.rights": "All rights reserved.",
   "footer.privacy": "Privacy Policy",
-  "footer.terms": "Terms of Service"
+  "footer.terms": "Terms of Service",
+
+  "testimonial.title": "Projects (CASE STUDIES)",
+  "testimonial.subtitle": "Selected Projects",
+  "testimonial.text1": "Development of a plant-material extraction method aimed at isolating a thermolabile compound for the cosmetics industry. Preparation and optimisation of the process to obtain a product with a minimum purity of 95%.",
+  "testimonial.text2": "We developed one of the stages of the synthesis and purification of a biologically active compound, optimised it, and improved the overall yield of the entire 5-step process by 12 pp.",
+
+  "about.title": "Our Motivation",
+  "about.text1": "LubTech is a team of professionals experienced in developing and implementing technologies for the chemical and related industries. Our goal is to combine scientific knowledge with industrial practice to create solutions that genuinely increase process efficiency and safety.",
+  "about.text2": "Our team can be described with one word: balance. We combine youth and maturity, calmness and experience, ambition and constant effort. Among us are members with over 10 years of academic experience, more than 20 years in industry, as well as aspiring young specialists who are already significantly experienced. The result of combining such ‘substrates’ is a team whose ambition is to deliver solutions for Polish industry while continuously developing, learning, and expanding horizons.",
+  "about.text3": "We are the type of people who close things — although we enjoy the journey itself, we always finish what we start. Solving many problems has allowed us to refine a working scheme that consistently delivers excellent results. If you are not yet using our services, try applying our scheme to your own challenge: we dive into the topic, test hypotheses, guide the solution and design the project, confirm assumptions during scaling, and implement the final process.",
+
+  "services.title": "LubTech Competence Map",
+  "services.subtitle": "See how we combine scientific knowledge, process technology, and engineering in practice.",
+  "services.processes": "Technological Processes",
+  "services.processes_desc": "We prepare pathways for organic and inorganic synthesis,\nWe optimize parameters to increase yield and product purity,\nWe design multi-step and integrated processes,\nWe perform multicomponent separations: purification on preparative chromatographic columns, cooling crystallization, sublimation, LLE, SLE, SFE, Soxhlet extraction, fractional distillation, azeotropic distillation, vacuum distillation, steam distillation, hydrodistillation, as well as solvent drying and recovery.",
+  "services.solutions": "Engineering Solutions",
+  "services.solutions_desc": "We prepare conceptual and technological designs of equipment,\nWe design complete industrial production lines,\nWe design chemical production halls,\nWe select materials and operating parameters,\nWe prepare PFD and P&ID process diagrams,\nWe advise on modernization, implementation, and commissioning of production lines designed by us,\nWe support obtaining environmental permits.",
+  "services.formulations": "Product Formulations",
+  "services.formulations_desc": "For the cosmetics, pharmaceutical, fertilizer, and feed industries,\nWe develop and optimize formulations based on client guidelines,\nWe perform stability and compatibility tests,\nWe develop manufacturing technologies and prepare technological documentation.",
+  "services.rd": "Contracted R&D Work",
+  "services.rd_desc": "We prepare and guide teams through literature reviews,\nWe offer research and support for scientific projects, grant proposals, and expert panels,\nWe perform analyses and reports: GCMS, 1H, 13C NMR, PSD.",
+  "feature.experience.title": "Experience and Expertise",
+  "feature.experience.description": "Many years of experience in R&D and process technology.",
+  "feature.comprehensive.title": "Comprehensive Approach",
+  "feature.comprehensive.description": "From chemical reaction to fully operating installation.",
+  "feature.customer_oriented.title": "Customer-Oriented",
+  "feature.customer_oriented.description": "Understanding B2B needs — from analysis to implementation.",
+  "feature.support.title": "Support at Every Stage",
+  "feature.support.description": "Flexible cooperation: consulting, documentation, technological studies.",
+  "cta.title": "We invite you to cooperate!",
+  "cta.description": "We design and optimize chemical processes — from laboratory research to industrial implementation. Comprehensive B2B support in R&D and process engineering.",
+  "cta.button": "Send an email"
 }

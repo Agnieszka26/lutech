@@ -8,7 +8,7 @@ export const LanguageSwitcher: React.FC = () => {
   const current = i18nextInstance.language || 'pl';
   const ref = useRef<HTMLDetailsElement | null>(null);
   const [open, setOpen] = useState(false);
-
+  const { t } = useTranslation(); 
   useEffect(() => {
     // sync open state with native details element
     if (ref.current) {
@@ -38,7 +38,7 @@ export const LanguageSwitcher: React.FC = () => {
     <li>
       <details ref={ref} onToggle={() => setOpen(ref.current?.open ?? false)}>
         <summary style={{ cursor: 'pointer' }}>
-          Language: <strong>{current.toUpperCase()}</strong>
+          {t("nav.language")}: <strong>{current.toUpperCase()}</strong>
         </summary>
 
         <ul className="bg-base-100 rounded-t-none p-2">
