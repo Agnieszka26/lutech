@@ -1,12 +1,20 @@
-import React from "react";
+"use client";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
+import lutech_logo from "../../assets/logo_lutech.svg";
+import Image from "next/image";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm px-4 ">
       <div className="flex-1">
-        <Link className="btn btn-ghost text-xl" href="/">LuTech</Link>
+        <Link className="btn btn-ghost text-xl" href="/">
+          <div className="bg-white rounded-full flex items-center justify-center m-2 md:m-10 w-12 h-12">
+            <Image src={lutech_logo} alt="LUBTECH" className="w-full h-full" />
+          </div>
+        </Link>
       </div>
 
       {/* Mobile hamburger */}
@@ -20,8 +28,12 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h16" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
             </svg>
           </label>
 
@@ -29,9 +41,15 @@ const Navbar = () => {
             tabIndex={0}
             className="menu dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li><Link href="/about">About Us</Link></li>
-            <li><Link href="/services">Services</Link></li>
-            <li><Link href="/projects">Projects</Link></li>
+            <li>
+              <Link href="/about">{t("nav.about")}</Link>
+            </li>
+            <li>
+              <Link href="/services">{t("nav.services")}</Link>
+            </li>
+            <li>
+              <Link href="/projects">{t("nav.projects")}</Link>
+            </li>
             <LanguageSwitcher />
           </ul>
         </div>
@@ -40,9 +58,15 @@ const Navbar = () => {
       {/* Desktop menu */}
       <div className="flex-none hidden md:block">
         <ul className="menu menu-horizontal px-1">
-          <li><Link href="/about">About Us</Link></li>
-          <li><Link href="/services">Services</Link></li>
-          <li><Link href="/projects">Projects</Link></li>
+          <li>
+            <Link href="/about">{t("nav.about")}</Link>
+          </li>
+          <li>
+            <Link href="/services">{t("nav.services")}</Link>
+          </li>
+          <li>
+            <Link href="/projects">{t("nav.projects")}</Link>
+          </li>
           <LanguageSwitcher />
         </ul>
       </div>

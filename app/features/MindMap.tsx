@@ -1,3 +1,4 @@
+"use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
@@ -6,12 +7,14 @@ import { PiTestTubeFill } from "react-icons/pi";
 import { FaGear } from "react-icons/fa6";
 import { FaMicroscope } from "react-icons/fa";
 import logo from "../assets/logo_lutech.svg";
+import { useTranslation } from "react-i18next";
 
 export function DiagramAnimated() {
   const itemVariants = {
     hidden: { opacity: 0, scale: 0.7, y: 20 },
     visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.4 } },
   };
+  const { t } = useTranslation();
 
   return (
     <div className="relative w-full max-w-xl mx-auto h-[450px] mb-20">
@@ -43,9 +46,14 @@ export function DiagramAnimated() {
           href="#processes"
           className="group flex flex-col items-center gap-2"
         >
-          <motion.div whileHover={{ scale: 1.15 }} className="w-32 h-32 flex flex-col items-center -ml-6">
+          <motion.div
+            whileHover={{ scale: 1.15 }}
+            className="w-32 h-32 flex flex-col items-center -ml-6"
+          >
             <ImLab className="w-12 h-12 text-light-blue" />
-            <p className="text-2xl font-bold text-dark-blue text-center">Procesy technologiczne</p>
+            <p className="text-2xl font-bold text-dark-blue text-center">
+              {t("services.processes")}
+            </p>
           </motion.div>
         </Link>
       </motion.div>
@@ -68,7 +76,7 @@ export function DiagramAnimated() {
             <FaGear className="w-12 h-12 text-light-blue" />
 
             <span className="text-2xl font-bold text-dark-blue text-center">
-              Rozwiązania inżynieryjne
+              {t("services.solutions")}
             </span>
           </motion.div>
         </Link>
@@ -85,10 +93,15 @@ export function DiagramAnimated() {
           href="#formulations"
           className="group flex flex-col items-center gap-2"
         >
-          <motion.div whileHover={{ scale: 1.15 }} className="w-32 h-32 flex flex-col items-center -mb-6">
+          <motion.div
+            whileHover={{ scale: 1.15 }}
+            className="w-32 h-32 flex flex-col items-center -mb-6"
+          >
             <PiTestTubeFill className="w-12 h-12 text-light-blue" />
 
-            <p className="text-2xl font-bold text-dark-blue text-center">Formulacje produktowe</p>
+            <p className="text-2xl font-bold text-dark-blue text-center">
+              {t("services.formulations")}
+            </p>
           </motion.div>
         </Link>
       </motion.div>
@@ -101,10 +114,13 @@ export function DiagramAnimated() {
         className="absolute right-0 bottom-0 flex flex-col items-center text-center"
       >
         <Link href="#rd" className="group flex flex-col items-center gap-2">
-          <motion.div whileHover={{ scale: 1.15 }} className="w-36 h-36 flex flex-col items-center -mb-6">
+          <motion.div
+            whileHover={{ scale: 1.15 }}
+            className="w-36 h-36 flex flex-col items-center -mb-6"
+          >
             <FaMicroscope className="w-16 h-16 text-light-blue" />
             <p className="text-2xl font-bold text-dark-blue text-center">
-              Prace badawczo‑rozwojowe (R&D)
+              {t("services.rd")}
             </p>
           </motion.div>
         </Link>
