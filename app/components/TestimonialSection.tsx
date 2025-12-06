@@ -2,11 +2,6 @@
 import { StaticImageData } from "next/image";
 import img_5 from "../assets/images/5.jpg";
 import img_6 from "../assets/images/6.jpg";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import "swiper/css";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
 import SlideIn from "./SlideIn";

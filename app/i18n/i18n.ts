@@ -1,6 +1,6 @@
 'use client';
 import i18n from "i18next";
-import { initReactI18next, useTranslation } from "react-i18next";
+import { initReactI18next} from "react-i18next";
 import pl from "../locales/pl.json"
 import en from "../locales/en.json"
 import ru from "../locales/ru.json"

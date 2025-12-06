@@ -1,9 +1,7 @@
 "use client";
 import Image from "next/image";
-import img_flow from "../assets/img_flow.png";
 import { useTranslation } from "react-i18next";
 import Accordion from "../components/Accordion";
-import bg from "../assets/bg.png";
 import image_11 from "../assets/images/11.avif";
 import SlideIn from "../components/SlideIn";
 export default function HomePage() {
