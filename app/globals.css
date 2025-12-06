@@ -7,3 +7,7 @@
   --color-primary-orange: #FB6801;
   --color-primary-gray: #A7A7A7;
 }
+
+.font-qwitcher-grypen {
+  font-family: var(--font-qwitcher-grypen);
+}

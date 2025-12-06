@@ -8,10 +8,10 @@ import Image from "next/image";
 const Navbar = () => {
   const { t } = useTranslation();
   return (
-    <div className="navbar bg-base-100 shadow-sm px-4 ">
+    <div className="navbar bg-base-100 shadow-sm px-4 h-[100px] fixed top-0 z-50 ">
       <div className="flex-1">
-        <Link className="btn btn-ghost text-xl" href="/">
-          <div className="bg-white rounded-full flex items-center justify-center m-2 md:m-10 w-12 h-12">
+        <Link href="/">
+          <div className="bg-white rounded-full flex items-center justify-center m-2 md:m-10 w-24 h-24">
             <Image src={lutech_logo} alt="LUBTECH" className="w-full h-full" />
           </div>
         </Link>
@@ -39,7 +39,7 @@ const Navbar = () => {
 
           <ul
             tabIndex={0}
-            className="menu dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-lg"
           >
             <li>
               <Link href="/about">{t("nav.about")}</Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
 
       {/* Desktop menu */}
       <div className="flex-none hidden md:block">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 text-xl">
           <li>
             <Link href="/about">{t("nav.about")}</Link>
           </li>

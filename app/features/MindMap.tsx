@@ -17,7 +17,7 @@ export function DiagramAnimated() {
   const { t } = useTranslation();
 
   return (
-    <div className="relative w-full max-w-xl mx-auto h-[450px] mb-20">
+    <div className="relative w-full max-w-xl mx-auto h-[450px] md:mb-20">
       {/* centralny element */}
 
       <div className="invisible md:visible absolute left-1/3 top-1/2 -translate-x-1/3 -translate-y-full w-0.5 h-[180px] bg-primary-orange -rotate-45"></div>
@@ -48,10 +48,10 @@ export function DiagramAnimated() {
         >
           <motion.div
             whileHover={{ scale: 1.15 }}
-            className="w-32 h-32 flex flex-col items-center -ml-6"
+            className="w-32 h-32 flex flex-col items-center ml-6 md:-ml-6"
           >
             <ImLab className="w-12 h-12 text-light-blue" />
-            <p className="text-2xl font-bold text-dark-blue text-center">
+            <p className="text-xl md:text-3xl font-bold text-dark-blue text-center ">
               {t("services.processes")}
             </p>
           </motion.div>
@@ -71,11 +71,11 @@ export function DiagramAnimated() {
         >
           <motion.div
             whileHover={{ scale: 1.15 }}
-            className="w-32 h-32 flex flex-col items-center -mr-6"
+            className="w-32 h-32 flex flex-col items-center md:-mr-6"
           >
             <FaGear className="w-12 h-12 text-light-blue" />
 
-            <span className="text-2xl font-bold text-dark-blue text-center">
+            <span className="text-xl md:text-3xl font-bold text-dark-blue text-center">
               {t("services.solutions")}
             </span>
           </motion.div>
@@ -95,11 +95,11 @@ export function DiagramAnimated() {
         >
           <motion.div
             whileHover={{ scale: 1.15 }}
-            className="w-32 h-32 flex flex-col items-center -mb-6"
+            className="w-32 h-32 flex flex-col items-center md:-mb-6"
           >
             <PiTestTubeFill className="w-12 h-12 text-light-blue" />
 
-            <p className="text-2xl font-bold text-dark-blue text-center">
+            <p className="text-xl md:text-3xl font-bold text-dark-blue text-center">
               {t("services.formulations")}
             </p>
           </motion.div>
@@ -116,10 +116,10 @@ export function DiagramAnimated() {
         <Link href="#rd" className="group flex flex-col items-center gap-2">
           <motion.div
             whileHover={{ scale: 1.15 }}
-            className="w-36 h-36 flex flex-col items-center -mb-6"
+            className="w-38 h-38 flex flex-col items-center -mb-12 md:-mb-8 md:-mr-6"
           >
-            <FaMicroscope className="w-16 h-16 text-light-blue" />
-            <p className="text-2xl font-bold text-dark-blue text-center">
+            <FaMicroscope className="w-14 h-14 md:w-16 md:h-16 text-light-blue" />
+            <p className="text-xl md:text-3xl font-bold text-dark-blue text-center">
               {t("services.rd")}
             </p>
           </motion.div>
