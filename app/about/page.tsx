@@ -11,7 +11,7 @@ export default function HomePage() {
     { q: t("about.question2"), a: t("about.text2") },
     { q: t("about.question3"), a: t("about.text3") },
     { q: t("about.question4"), a: t("about.text4") },
-    { q: t("about.question5"), a: t("about.text5") },
+    { q: t("about.question5"), a: t("about.text5"), processFlow: true },
   ];
 
   return (
@@ -23,10 +23,9 @@ export default function HomePage() {
           {t("nav.about")}
         </h3>
         </SlideIn>
-
           <div className="">
-            {questions.map(({ q, a }, index) => {
-              return <SlideIn key={index} delay={index *0.4}><Accordion question={q} content={a} /></SlideIn>;
+            {questions.map(({ q, a,processFlow }, index) => {
+              return <SlideIn key={index} delay={index *0.4}><Accordion question={q} content={a} processFlow={processFlow}/></SlideIn>;
 
             })}
           </div>
@@ -35,7 +34,7 @@ export default function HomePage() {
           <Image
             src={image_11}
             alt="About Us"
-            className="mt-12 rounded-lg shadow-lg mx-auto "
+            className="mt-12 rounded-lg shadow-lg mx-auto"
             width={800}
             height={150}
           />

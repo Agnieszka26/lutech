@@ -5,7 +5,7 @@ import CtaSection from "./features/CtaSection";
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="2xl:container 2xl:mx-auto">
       <HeroArea />
       <Features />
       <CtaSection />

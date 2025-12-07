@@ -57,28 +57,24 @@ const ServicesSection = () => {
           >
             {/* Obrazek */}
             <SlideIn className="relative w-full md:w-1/2 md:h-[500px] aspect-square rounded-2xl overflow-hidden shadow-lg">
-
-          
               <Image src={icon} alt={title} fill className="object-cover" />
-            
             </SlideIn>
 
             {/* Tekst */}
             <SlideInRight className="w-full md:w-1/2 mt-6 md:mt-0 text-center md:text-left">
-
               <h3 className="text-3xl font-bold mb-4 text-dark-blue">
                 {title}
               </h3>
 
-              <p className="text-gray-700 leading-relaxed text-xl">
+              <ul className="text-gray-700 leading-relaxed text-xl space-y-2">
                 {description.split("\n").map((line, i) => (
-                  <span key={i} className="block">
-                    <span className={"text-primary-orange"}>•</span> {line}
-                  </span>
+                  <li key={i} className="flex items-start gap-2">
+                    <div className="w-3 h-3 bg-primary-orange rounded-full mt-[11px] shrink-0"></div>
+                    <span>{line}</span>
+                  </li>
                 ))}
-              </p>
-                </SlideInRight>
-           
+              </ul>
+            </SlideInRight>
           </div>
         ))}
       </div>

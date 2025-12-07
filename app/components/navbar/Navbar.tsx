@@ -8,7 +8,7 @@ import Image from "next/image";
 const Navbar = () => {
   const { t } = useTranslation();
   return (
-    <div className="navbar bg-base-100 shadow-sm px-4 h-[100px] fixed top-0 z-50 ">
+    <div className="navbar bg-base-100 shadow-sm px-4 h-[100px] fixed top-0 z-50 2xl:container 2xl:mx-auto 2xl:left-1/2 2xl:-translate-x-1/2">
       <div className="flex-1">
         <Link href="/">
           <div className="bg-white rounded-full flex items-center justify-center m-2 md:m-10 w-24 h-24">

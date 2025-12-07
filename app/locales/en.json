@@ -17,7 +17,14 @@
   "testimonial.subtitle": "Selected Projects",
   "testimonial.text1": "Development of a plant-material extraction method aimed at isolating a thermolabile compound for the cosmetics industry. Preparation and optimisation of the process to obtain a product with a minimum purity of 95%.",
   "testimonial.text2": "We developed one of the stages of the synthesis and purification of a biologically active compound, optimised it, and improved the overall yield of the entire 5-step process by 12 pp.",
-
+  "testimonial.text3": "Extraction of phenolic compounds from plant material – development of a pilot-scale technology.",
+  "testimonial.text4": "Synthesis and crystallization of a new API – development of a complete laboratory process and implementation documentation.",
+  "testimonial.text5": "Development of fertilizer formulations.",
+  "testimonial.text6": "Development of production methods for inorganic selenium compounds.",
+  "testimonial.text7": "Management of a project concerning the sublimation of molybdenum oxide.",
+  "testimonial.text8": "Production of an ecological candy batch.",
+  "testimonial.text9": "Development of complete production lines for inorganic compounds.",
+  "testimonial.text10": "Research on obtaining materials with an appropriate particle-size distribution.",
 
   "about.title": "Our Motivation",
   "about.question1": "Who are we?",
@@ -52,5 +59,12 @@
 
   "cta.title": "We invite you to cooperate!",
   "cta.description": "We design and optimize chemical processes — from laboratory research to industrial implementation. Comprehensive B2B support in R&D and process engineering.",
-  "cta.button": "Send an email"
+  "cta.button": "Send an email",
+
+  "processFlow.analize": "Problem Analysis",
+  "processFlow.research": "Research",
+  "processFlow.design": "Design",
+  "processFlow.scaleup": "Scaling and Testing",
+  "processFlow.implementation": "Implementation"
+
 }

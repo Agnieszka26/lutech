@@ -75,10 +75,10 @@ export default async function RootLayout({
   return (
     <html lang="en" data-theme="light">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${qwitcherGtypen.variable}`}
+        className={`${geistSans.variable} ${geistMono.variable} ${qwitcherGtypen.variable} `}
       >
         <Navbar />
-        <div className="pt-24">{children}</div>
+        <div className="pt-[100px]">{children}</div>
         <Footer />
       </body>
       <Script

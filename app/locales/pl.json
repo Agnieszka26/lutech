@@ -17,6 +17,14 @@
   "testimonial.subtitle": "Wybrane projekty",
   "testimonial.text1": "Opracowanie metody ekstrakcji materiału roślinnego pod kątem ekstakcji związku termolabilnego dla przemysłu kosmetycznego. Przygotowanie i zoptymalizowanie procesu i uzyskanie produktu o czystości min. 95%.",
   "testimonial.text2": "Opracowaliśmy jeden z etapów syntezy i oczyszczania związku aktywnego biologicznie, zoptymalizowaliśmy i poprawiliśmy ogólną wydajność całego, 5 etapowego procesu o 12 p.p.",
+  "testimonial.text3": "Ekstrakcja związków fenolowych z materiału roślinnego - opracowanie technologii pilotowej",
+  "testimonial.text4": "Synteza i krystalizacja nowego API - opracowanie pełnego procesu laboratoryjnego i dokumentacji wdrożeniowej",
+  "testimonial.text5": " Opracowanie formulacji nawozowych.",
+  "testimonial.text6": "Opracowanie metod produkcji nieorganicznych związków selenowych.",
+  "testimonial.text7": "Prowadzenie projektu dotyczącego sublimacji tlenku molibdenu.",
+  "testimonial.text8": "Wykonanie ekologicznego wsadu do cukierków.",
+  "testimonial.text9": "Opracowanie kompletnych linii do produkcji związków nieorganicznych.",
+  "testimonial.text10": "Badania w zakresie pozyskania materiałów o odpowiednim rozkładzie cząstek. ",
 
   "about.title": "Nasza motywacja",
   "about.question1": "Kim jesteśmy?",
@@ -35,7 +43,7 @@
   "services.processes": "Procesy technologiczne",
   "services.processes_desc": "Przygotowujemy ścieżeki syntezy organicznej  i nieorganicznej, \n  Optymalizujemy parametry, zwiększamy wydajność, czystość produktu,\n  Projektujemy procesy wieloetapowych i sprzężonych,\n  Wykonujemy separacje wieloskładnikowe: oczyszczanie na kolumnach chromatograficznych preparatywnych, krystalizacje przez chłodzenie, sublimacje, ekstrakcje LLE, SLE, SFE, Soxhlet, destylacje frakcyjną, azeotropową, pod obniżonym ciśnieniem, destylację z parą wodną, hydrodestylacje oraz suszenie i odzysk rozpuszczalników,",
   "services.solutions": "Rozwiązania inżynieryjne",
-  "services.solutions_desc": "Wykonujemy projekt koncepcyjny i technologiczny urządzeń, \n Projektujemy kompletne linie przemysłowe, \n Projektujemy hale do produkcji chemicznej,\n  dobieramy materiały i parametry pracy,\n  Przygotowujemy schematy technologiczne PFD, P&ID,\n Doradzamy przy modernizacji i wdrożeniach, uruchomieniach zaprojektowanych przez nas linii produkcyjnych, \n Wspieramy w uzyskaniu pozwoleń środowiskowych ",
+  "services.solutions_desc": "Wykonujemy projekt koncepcyjny i technologiczny urządzeń, \n Projektujemy kompletne linie przemysłowe, \n Projektujemy hale do produkcji chemicznej,\n  Dobieramy materiały i parametry pracy,\n  Przygotowujemy schematy technologiczne PFD, P&ID,\n Doradzamy przy modernizacji i wdrożeniach, uruchomieniach zaprojektowanych przez nas linii produkcyjnych, \n Wspieramy w uzyskaniu pozwoleń środowiskowych ",
   "services.formulations": "Formulacje produktowe",
   "services.formulations_desc": "Dla przemysłów: kosmetycznych, farmaceutycznych, nawozowych, paszowych, \n Opracowujemy i optymalizujemy receptury w oparciu o wytyczne klienta, \n Wykonujemy testy stabilności, zgodności, \n Opracowujemy technologie wytwarzania oraz przygotowujemy dokumentacje technologiczne",
   "services.rd": "Zlecone prace R&D",
@@ -53,5 +61,11 @@
 
   "cta.title": "Zapraszamy do współpracy!",
   "cta.description": "Projektujemy i optymalizujemy procesy chemiczne — od badań laboratoryjnych po wdrożenia przemysłowe. Kompleksowe wsparcie B2B w obszarze R&D i inżynierii procesowej.",
-  "cta.button": "Napisz e-mail"
+  "cta.button": "Napisz e-mail",
+
+  "processFlow.analize": "Analiza problemu",
+  "processFlow.research": "Badania",
+  "processFlow.design": "Projektowanie",
+  "processFlow.scaleup": "Skalowanie i testy",
+  "processFlow.implementation": "Wdrożenie"
 }
