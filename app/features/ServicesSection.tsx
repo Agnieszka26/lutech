@@ -1,8 +1,8 @@
 "use client";
-import img_1 from "../assets/images/1.jpg";
-import img_2 from "../assets/images/2.jpg";
-import img_3 from "../assets/images/3.jpg";
-import img_4 from "../assets/images/4.jpg";
+import process_tech from "../assets/images/services/Procesy technologiczne.jpg"
+import solutions from "../assets/images/services/Rozwiązania inyznieryjne.jpg"
+import formulations from "../assets/images/services/Formułach produktowe.jpg"
+import rd from "../assets/images/services/Zlecone prace R&D.jpg"
 import Image from "next/image";
 import { DiagramAnimated } from "./MindMap";
 import { useTranslation } from "react-i18next";
@@ -16,25 +16,25 @@ const ServicesSection = () => {
       title: t("services.processes"),
       id: "processes",
       description: t("services.processes_desc"),
-      icon: img_1,
+      icon: process_tech,
     },
     {
       title: t("services.solutions"),
       id: "solutions",
       description: t("services.solutions_desc"),
-      icon: img_2,
+      icon: solutions,
     },
     {
       title: t("services.formulations"),
       id: "formulations",
       description: t("services.formulations_desc"),
-      icon: img_3,
+      icon: formulations,
     },
     {
       title: t("services.rd"),
       id: "rd",
       description: t("services.rd_desc"),
-      icon: img_4,
+      icon: rd,
     },
   ];
 
@@ -43,7 +43,7 @@ const ServicesSection = () => {
       <h2 className="text-3xl font-bold mb-2 text-center text-white">
         {t("services.title")}
       </h2>
-      <p className="text-center text-white pb-">{t("services.subtitle")}</p>
+      <p className="text-center text-white">{t("services.subtitle")}</p>
       <DiagramAnimated />
 
       <div className="flex flex-col space-y-16 pt-4">
@@ -61,7 +61,7 @@ const ServicesSection = () => {
             </SlideIn>
 
             {/* Tekst */}
-            <SlideInRight className="w-full md:w-1/2 mt-6 md:mt-0 text-center md:text-left">
+            <SlideInRight className="w-full md:w-1/2 mt-6 md:mt-0 text-left">
               <h3 className="text-3xl font-bold mb-4 text-dark-blue">
                 {title}
               </h3>

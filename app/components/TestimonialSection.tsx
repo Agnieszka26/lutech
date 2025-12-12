@@ -1,18 +1,16 @@
 "use client";
 import { StaticImageData } from "next/image";
-import img_5 from "../assets/images/5.jpg";
-import img_6 from "../assets/images/6.jpg";
 import { useTranslation } from "react-i18next";
 import TestimonialCard from "./TestimonialCard";
-import img_7 from "../assets/images/7.jpg";
-import img_8 from "../assets/images/8.jpg";
-import img_9 from "../assets/images/9.jpg";
-import img_10 from "../assets/images/10.jpg";
-import img_16 from "../assets/images/16.webp";
-import img_12 from "../assets/images/12.avif";
-import img_13 from "../assets/images/13.png";
-import img_14 from "../assets/images/14.jpg";
-import img_15 from "../assets/images/15.jpg";
+import sad_do_cukierkow from "../assets/images/Realizacje_ekologicznym sad do cukierkow.jpg"
+import zwiazki_fenolowe from "../assets/images/Realizację ekstrakcja związków fenolowych.jpg"
+import lini_do_syntezy from "../assets/images/Realizacje_kompletnych_lini_do_syntezy_związków.jpg"
+import zwiazki_selenowe from "../assets/images/Realizacje_nieorganiczne_związk_selenowe.jpg"
+import jeden_z_etapow from "../assets/images/Realizację synteza jednego z etapów.jpg"
+import rozklad_czastek from "../assets/images/Realizacje_rozkładczastek.jpg"
+import meoda_extrakcji from "../assets/images/Realizacje_metoda_ekstrakcji .jpg"
+import dodatkowe from "../assets/images/04.jpg"
+import dodatkowe_05 from "../assets/images/05dodatkowe.avif"
 
 interface Testimonial {
   name: string;
@@ -26,53 +24,48 @@ export default function TestimonialSection() {
     {
       name: "2024",
       text: t("testimonial.text1"),
-      image: img_5,
+      image: meoda_extrakcji,
     },
     {
       name: "2022/2023",
       text: t("testimonial.text2"),
-      image: img_6,
+      image: jeden_z_etapow,
     },
     {
       name: "02.2023",
       text: t("testimonial.text3"),
-      image: img_7,
-    },
-    {
-      name: "06.2025",
-      text: t("testimonial.text4"),
-      image: img_15,
+      image: zwiazki_fenolowe,
     },
     {
       name: "07.2021",
       text: t("testimonial.text5"),
-      image: img_8,
+      image: dodatkowe,
     },
 
     {
       name: "2022",
       text: t("testimonial.text6"),
-      image: img_9,
+      image: zwiazki_selenowe,
     },
     {
       name: "2021",
       text: t("testimonial.text7"),
-      image: img_10,
+      image: dodatkowe_05,
     },
     {
       name: "02.2021",
       text: t("testimonial.text8"),
-      image: img_16,
+      image: sad_do_cukierkow,
     },
     {
       name: "12.2021",
       text: t("testimonial.text9"),
-      image: img_12,
+      image: lini_do_syntezy,
     },
     {
       name: "01.2022",
       text: t("testimonial.text10"),
-      image: img_13,
+      image: rozklad_czastek,
     },
   ];
   return (

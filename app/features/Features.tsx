@@ -35,10 +35,10 @@ const Features = () => {
     },
   ];
   return (
-    <section>
-      <div className="md:flex pt-24 md:pt-60 lg:p-8 md:gap-4">
+    <section className="mx-auto">
+      <div className="flex flex-col justify-center items-center lg:flex-row  pt-24 md:pt-60 lg:py-8 md:gap-4">
         {featuresData.map(({ icon, title, description }, index) => (
-          <SlideIn key={index} delay={index * 0.2} className="feature-item flex flex-col items-center p-4 max-w-sm mx-auto md:mx-0 md:w-1/4">
+          <SlideIn key={index} delay={index * 0.2} className="feature-item flex flex-col items-center p-4 max-w-sm mx-auto md:mx-0 md:w-1/2 lg:w-1/4">
 
           <div
           key={index}

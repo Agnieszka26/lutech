@@ -1,45 +1,62 @@
-"use client";
-import Image from "next/image";
-import { useTranslation } from "react-i18next";
-import Accordion from "../components/Accordion";
-import image_11 from "../assets/images/11.avif";
-import SlideIn from "../components/SlideIn";
-export default function HomePage() {
-  const { t } = useTranslation();
-  const questions = [
-    { q: t("about.question1"), a: t("about.text1") },
-    { q: t("about.question2"), a: t("about.text2") },
-    { q: t("about.question3"), a: t("about.text3") },
-    { q: t("about.question4"), a: t("about.text4") },
-    { q: t("about.question5"), a: t("about.text5"), processFlow: true },
-  ];
+import { Metadata } from "next";
+import AboutPage from "../components/AboutPage";
 
-  return (
-    <section className="bg-linear-to-r from-dark-blue to-light-blue">
-      <div className="container mx-auto px-4 py-12">
-        <SlideIn>
+export const metadata: Metadata = {
+  title: "LubTech – kim jesteśmy, misja i doświadczenie zespołu | LubTech",
+  description:
+    "LubTech to zespół ekspertów z doświadczeniem w opracowywaniu i wdrażaniu technologii dla przemysłu chemicznego i pokrewnych. Łączymy wiedzę naukową z praktyką przemysłową, aby zwiększać efektywność i bezpieczeństwo procesów.",
+  keywords: [
+    "pomoc badania i rozwój",
+    "pomoc R&D",
+    "badania i rozwój",
+    "technologie",
+    "technologia chemiczna",
+    "inżynieria chemiczna",
+    "kosmetyki",
+    "projektowanie",
+    "przemysł",
+    "formulacje produktowe",
+    "chemia nieorganiczna",
+    "chemia organiczna",
+    "syntezy",
+    "syntezy chemiczne",
+    "destylacja",
+    "ekstrakcja",
+    "oczyszczanie",
+    "krystalizacja",
+    "analiza MS",
+    "PSD particle size distribution",
+    "mielenie",
+    "mieszanie",
+    "miedzalnik",
+  ],
+  openGraph: {
+    title: "LubTech – kim jesteśmy, misja i doświadczenie zespołu | LubTech",
+    description:
+      "LubTech to zespół ekspertów z doświadczeniem w opracowywaniu i wdrażaniu technologii dla przemysłu chemicznego i pokrewnych. Łączymy wiedzę naukową z praktyką przemysłową, aby zwiększać efektywność i bezpieczeństwo procesów.",
+    url: "https://www.lubtech.net.pl/about",
+    siteName: "LubTech",
+    images: [
+      {
+        url: "/og-about.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+    locale: "pl_PL",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "LubTech – kim jesteśmy, misja i doświadczenie zespołu | LubTech",
+    description:
+      "LubTech to zespół ekspertów z doświadczeniem w opracowywaniu i wdrażaniu technologii dla przemysłu chemicznego i pokrewnych. Łączymy wiedzę naukową z praktyką przemysłową, aby zwiększać efektywność i bezpieczeństwo procesów.",
+    images: ["/og-about.png"],
+  },
+};
 
-        <h3 className=" text-6xl font-bold text-white py-4">
-          {t("nav.about")}
-        </h3>
-        </SlideIn>
-          <div className="">
-            {questions.map(({ q, a,processFlow }, index) => {
-              return <SlideIn key={index} delay={index *0.4}><Accordion question={q} content={a} processFlow={processFlow}/></SlideIn>;
+const ProjectPage = () => {
+  return <AboutPage />;
+};
 
-            })}
-          </div>
-
-        <SlideIn delay={2}>
-          <Image
-            src={image_11}
-            alt="About Us"
-            className="mt-12 rounded-lg shadow-lg mx-auto"
-            width={800}
-            height={150}
-          />
-        </SlideIn>
-      </div>
-    </section>
-  );
-}
+export default ProjectPage;

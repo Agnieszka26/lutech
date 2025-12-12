@@ -6,7 +6,7 @@ import { ImLab } from "react-icons/im";
 import { PiTestTubeFill } from "react-icons/pi";
 import { FaGear } from "react-icons/fa6";
 import { FaMicroscope } from "react-icons/fa";
-import logo from "../assets/logo_lutech.svg";
+import logo from "../assets/logo_lubtech.png";
 import { useTranslation } from "react-i18next";
 
 export function DiagramAnimated() {

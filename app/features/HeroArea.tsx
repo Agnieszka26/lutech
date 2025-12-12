@@ -1,9 +1,10 @@
 import Image from "next/image";
 import bg from "../assets/bg.png";
 import { useTranslation } from "react-i18next";
-import lutech_logo from "../assets/logo_lutech.svg";
+import lutech_logo from "../assets/logo_lubtech.png";
 import SlideIn from "../components/SlideIn";
 import SlideInRight from "../components/SlideInRight";
+import Link from "next/link";
 const HeroArea = () => {
   const { t } = useTranslation();
   return (
@@ -27,14 +28,16 @@ const HeroArea = () => {
               </h1>
             </SlideIn>
             <SlideIn delay={1}>
-              <p className="text-white md:text-2xl m-2 md:m-10 lg:my-5">
+              <p className="text-white md:text-xl m-2 md:m-10 lg:my-5 xl:text-2xl">
                 {t("hero.description")}
               </p>
             </SlideIn>
             <SlideIn delay={1.5}>
-              <button className="btn text-xl md:text-2xl mx-2 py-6 md:mx-10 xl:my-0 bg-primary-orange border-primary-orange hover:bg-orange-700 text-white">
+              <Link className="btn text-xl md:text-2xl mx-2 py-6 md:mx-10 xl:my-0 bg-primary-orange border-primary-orange hover:bg-orange-700 text-white"
+               href={"mailto:agnieszka.lipa@lubtech.net.pl"}
+              >
                 {t("hero.cta")}
-              </button>
+              </Link>
             </SlideIn>
           </div>
           <div>
@@ -43,7 +46,7 @@ const HeroArea = () => {
                 <Image
                   src={lutech_logo}
                   alt="LUBTECH"
-                  className="w-full h-full"
+                  // className="w-[90%] h-full"
                 />
               </div>
             </SlideInRight>

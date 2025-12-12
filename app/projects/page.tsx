@@ -1,22 +1,57 @@
-'use client';
-import { useTranslation } from "react-i18next";
-import TestimonialSection from "../components/TestimonialSection";
-import SlideIn from "../components/SlideIn";
+import ProjectPage from "../components/ProjectsPage";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projekty LubTech – portfolio technologiczne i badawczo-rozwojowe",
+  description:
+    "Zobacz projekty LubTech: wdrożenia technologiczne, rozwiązania R&D, procesy chemiczne, syntezy, separacje i innowacje przemysłowe. Nasze case studies i efekty prac badawczo-rozwojowych.",
+  keywords: [
+    "projekty technologiczne",
+    "portfolio projektów",
+    "wdrożenia R&D",
+    "badania i rozwój",
+    "technologie chemiczne",
+    "inżynieria chemiczna",
+    "innowacje przemysłowe",
+    "syntezy chemiczne",
+    "procesy technologiczne",
+    "separacje",
+    "destylacja w projektach",
+    "krystalizacja projektów",
+    "analiza PSD",
+    "analiza MS",
+    "formulacje produktowe",
+    "przemysłowe wdrożenia",
+    "case studies"
+  ],
+  openGraph: {
+    title: "Projekty LubTech – portfolio technologiczne i badawczo-rozwojowe",
+    description:
+      "Przegląd projektów firmy LubTech: wdrożenia technologiczne, badania i rozwój (R&D), innowacje procesowe i chemiczne oraz ich wyniki.",
+    url: "https://www.lubtech.net.pl/projects",
+    siteName: "LubTech – Projekty",
+    images: [
+      {
+        url: "/og-projects.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+    locale: "pl_PL",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Projekty LubTech – portfolio technologiczne i badawczo-rozwojowe",
+    description:
+      "Zobacz projekty LubTech: wdrożenia R&D, procesy technologiczne i rozwiązania przemysłowe.",
+    images: ["/og-projects.png"],
+  },
+};
 
 const Page = () => {
-  const {t} = useTranslation();
-  return (
-    <div className=" pt-8 mx-auto  bg-[#0D1418]">
-      <SlideIn>
-
-      <h3 className="text-5xl font-bold mb-4 text-center text-white">
-      {t("testimonial.title")}
-      </h3>
-      </SlideIn>
-      <p className="text-white text-center text-2xl">{t("testimonial.subtitle")}</p>
-      <TestimonialSection />
-    </div>
-  );
+  
+  return <ProjectPage />
 };
 
 export default Page;
