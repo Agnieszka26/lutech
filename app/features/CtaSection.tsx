@@ -18,7 +18,7 @@ const CtaSection = () => {
         <SlideIn delay={1}>
           <Link
             className="bg-white text-light-blue font-semibold px-6 py-3 rounded-md hover:bg-blue-100 transition text-2xl"
-            href={"mailto:grzegorz.wroński@lubtech.net.pl"}
+            href={"mailto:grzegorz.wronski@lubtech.net.pl"}
           >
             {t("cta.button")}
           </Link>

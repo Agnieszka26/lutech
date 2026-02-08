@@ -82,7 +82,7 @@ export default async function RootLayout({
         "@type": "ContactPoint",
         contactType: "customer service",
         name: "Grzegorz Wroński",
-        email: "grzegorz.wroński@lubtech.net.pl",
+        email: "grzegorz.wronski@lubtech.net.pl",
         telephone: "+48 602 276 001",
         areaServed: "PL",
       },

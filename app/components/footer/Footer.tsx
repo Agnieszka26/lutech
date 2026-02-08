@@ -47,7 +47,7 @@ const Footer = () => {
 
         <p>
           Grzegorz Wroński <br />
-          grzegorz.wroński@lubtech.net.pl <br />
+          grzegorz.wronski@lubtech.net.pl <br />
           +48 602 276 001
         </p>
       </div>

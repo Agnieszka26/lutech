@@ -13,9 +13,9 @@ const Modal = ({
   const modalRef: RefObject<HTMLDialogElement | null> = useRef(null);
 
   const openModal = () => {
-    if (modalRef && modalRef.current) {
-      modalRef.current.showModal();
-    }
+    // if (modalRef && modalRef.current) {
+    //   modalRef.current.showModal();
+    // }
   };
   return (
     <>
